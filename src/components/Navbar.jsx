@@ -30,7 +30,7 @@ const Navbar = (props) => {
   ]
 
   return (
-    <div className="px-4 text-white fixed h-20 w-full flex items-center justify-between">
+    <div className="px-4 text-white sm:fixed h-20 w-full flex items-center justify-between">
       <div><h1 className="text-5xl font-signature ml-2">SRK</h1></div>
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => <li key={id} className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200 hover:text-white"><Link to={link} smooth duration={500}>{link}</Link></li>)}

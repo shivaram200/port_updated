@@ -23,7 +23,7 @@ const Home = () => {
                         elevate your digital presence to new heights
                     </p>
                     <div>
-                        <Link to="portfolio" smooth duration={500} className="group flex items-center px-6 py-3 my-2 w-[13%] cursor-pointer rounded-lg bg-gradient-to-r from-sky-400 to-blue-500">
+                        <Link to="portfolio" smooth duration={500} className="group flex items-center px-6 py-3 my-2 w-[40%] sm:w-[13%] cursor-pointer rounded-lg bg-gradient-to-r from-sky-400 to-blue-500">
                             Portfolio
                             <span><RiArrowRightSFill size={25} className="group-hover:rotate-90 duration-300" /></span>
                         </Link>
